@@ -1,2 +1,4 @@
 # medibot-medical-chatbot-using-RAG-and-LLM | SELF PROJECT
-This is a self projject called "Medibot". Where we use langchain, llama, streamlit and FAISS to create a medical chatbot. Used RAG technique to make sure there is no hallucination and it gives accurate answers extracted from knowledge base. The knowledge base used here is PDF of a medical textbook
+* Developed a medical chatbot using Streamlit, LangChain, FAISS, and LLaMA-4 to provide doctors and students quick, context-aware answers from clinical PDFs.
+* Engineered a pipeline to chunk/embed medical PDFs via HuggingFace transformers for scalable semantic search.
+* Implemented Retrieval-Augmented Generation (RAG) with FAISS and custom prompt engineering to enhance LLM reliability, reduce hallucinations, and ensure real-time, medically consistent responses.
